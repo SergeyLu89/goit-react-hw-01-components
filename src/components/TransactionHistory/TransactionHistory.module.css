@@ -1,0 +1,30 @@
+.tableTransactionHistory {
+  width: 350px;
+  margin: 32px auto;
+  border-radius: 12px;
+  background-color: #3d424a;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 20px -3px;
+}
+
+.tableHead {
+  background-color: #fdfdff;
+  height: 16px;
+}
+.tableHeadItem {
+  border-radius: 6px;
+}
+.tableData {
+  text-align: center;
+}
+.tableBody {
+  background-color: #e6edea;
+}
+.tableDataFirstItem {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+.tableDataLastItem {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}

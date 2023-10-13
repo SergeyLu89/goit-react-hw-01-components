@@ -1,0 +1,27 @@
+.statisticSection {
+  width: 350px;
+  margin: 32px auto;
+  border-radius: 12px;
+  background-color: #3d424a;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 20px -3px;
+}
+.statisticTitle {
+  color: #fdfdff;
+  font-size: 28px;
+  text-align: center;
+}
+.statList {
+  display: flex;
+  gap: 8px;
+  justify-content: space-around;
+}
+.statListItem {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  border-radius: 6px;
+  background-color: #fdfdff;
+}

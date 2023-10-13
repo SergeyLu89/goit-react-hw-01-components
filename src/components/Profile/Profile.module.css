@@ -1,8 +1,42 @@
-/* .profile {
- 
-} */
-.description {
+.profile {
   width: 350px;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 12px;
+  background-color: #3d424a;
+  padding: 10px;
+  margin-top: 32px;
+  box-shadow: rgba(0, 0, 0, 0.75) 5px 5px 20px -3px;
+}
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.profileImg {
+  border-radius: 50%;
+  background-color: #ccd3de;
+}
+.name {
+  color: #fdfdff;
+  font-size: 28px;
+}
+.profileDescr {
+  font-size: 16px;
+  color: #fdfdff;
+}
+.profileStats {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.profileListItem {
+  width: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 6px;
+  background-color: #fdfdff;
 }
